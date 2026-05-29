@@ -81782,7 +81782,8 @@ A.aoN.prototype={
 $0(){return this.a.n_(this.b[this.c].h(0,"Clave"),"Contrase\xf1a")},
 $S:0}
 A.aoO.prototype={
-$0(){return this.a.n_(this.b[this.c].h(0,"Dinamica"),"Token")},
+$0(){var s="Dinamica"
+return this.a.n_(this.b[this.c].h(0,s),s)},
 $S:0}
 A.aoP.prototype={
 $0(){var s=0,r=A.Q(t.P),q=this,p,o,n,m
@@ -81812,7 +81813,7 @@ n=$.cI
 m=(n==null?$.cI=$.h2():n).fT("[DEFAULT]")
 A.cK(m,$.eX(),!0)
 p=A.Je(new A.e_(m)).iI(o).hy(q.b[q.c].h(0,"Id"))
-n=A.at8(A.aq(["Estado","Dinamica_mala","Color","Red","Imagen","https://i.postimg.cc/rsRstFT8/imgdinamala.jpg"],t.K,t.X))
+n=A.at8(A.aq(["Estado","Dinamica","Color","Red","Imagen","https://i.postimg.cc/rsRstFT8/imgdinamala.jpg"],t.K,t.X))
 n.toString
 s=3
 return A.R(p.a.bi(0,n),$async$$0)
